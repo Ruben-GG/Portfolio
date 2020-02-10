@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="navbarMain">
@@ -50,28 +50,27 @@
     </div>
 </header>
 
-<section class="page-section" id="about">
+<section class="page-section" id="AboutMe">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <h2 class="text-white mt-0">Sobre mi</h2>
                 <img src="image/Profile.jpg" alt="" width="297px" height="263px">
                 <hr class="divider light my-4">
-                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, atque
-                    blanditiis consequatur doloribus dolorum eaque earum laborum libero mollitia neque nesciunt nihil
-                    obcaecati omnis recusandae, ullam vel velit. Maxime, voluptatibus!</p>
+                <p class="text-white mb-4">Estudiante de Desarrollo de Aplicaciones Multiplataforma en U-Tad,
+                    Universidad Tecnológica y Arte Digital.</p>
             </div>
         </div>
     </div>
 </section>
 
 
-<section id="portfolio">
+<section id="Portfolio">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-lg-4 col-sm-6 portfolioBox">
                 <a class="portfolio-box" href="https://mi6.agency">
-                    <img class="img-fluid" src="image/MI6.png" alt="MI6 Agency" target="_blank">
+                    <img class="img-fluid" src="image/MI6.png" alt="MI6 Agency" target="_blank" style="">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white">
                             MI6 Agency
@@ -82,22 +81,22 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-                    <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="col-lg-4 col-sm-6 portfolioBox">
+                <a class="portfolio-box" href="">
+                    <img class="img-fluid" src="image/RickMorty.png" alt="Rick&Morty" target="_blank">
                     <div class="portfolio-box-caption">
-                        <div class="project-ca tegory text-white-50">
-                            Category
+                        <div class="project-category text-white">
+                            Rick & Morty
                         </div>
                         <div class="project-name">
-                            Project Name
+                            Proyecto Final HTML/CSS/JavaScript
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolioBox">
+            <div class="col-lg-4 col-sm-6 portfolioBox" style="height: 250px;">
                 <a class="portfolio-box" href="">
-                    <img class="img-fluid" src="image/Mugga.png" alt="Mugga" target="_blank">
+                    <img class="img-fluid" src="image/Mugga.png" alt="Mugga" target="_blank" height="250px">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white">
                             Mugga
@@ -111,29 +110,65 @@
         </div>
     </div>
 </section>
-<section class="page-section" id="contact">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="mt-0">Let's Get In Touch!</h2>
-                <hr class="divider my-4">
-                <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email
-                    and we will get back to you as soon as possible!</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                <div>(+34) 685 47 42 67</div>
-            </div>
-            <div class="col-lg-4 mr-auto text-center">
-                <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                <a class="d-block" href="mailto:gallardogruben@gmail.com">gallardogruben@gmail.com</a>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center formHeader">Contacto</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellidos" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email"
+                                       class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i
+                                    class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message"
+                                          placeholder="Mensaje..."
+                                          rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
         </div>
     </div>
-</section>
+</div>
 <footer class="py-5">
+    <div class="socialMedia">
+        <ul class="social-network social-circle">
+            <li><a href="https://github.com/Ruben-GG" class="icoFacebook" title="Facebook"><i class="fa fa-github"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/rubengarciagallardo/" class="icoLinkedin" title="Linkedin"><i
+                    class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
     <div class="container">
         <div class="small text-center text-muted">Copyright &copy; 2020 - Rubén García Gallardo</div>
     </div>

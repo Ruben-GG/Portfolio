@@ -1,6 +1,7 @@
 body {
     background: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1993&q=80') no-repeat fixed center 0;
 }
+
 a {
     color: #ffffff !important;
 }
@@ -48,25 +49,31 @@ a {
 }
 
 
-#about, #contact {
+#AboutMe, #Contact {
     padding-top: 25px;
 }
 
-#about img {
+#AboutMe img {
     border-radius: 50%;
     border: 3px solid lightgrey;
 }
 
-#portfolio {
+#Portfolio {
     padding: 5px;
 }
 
-.portfolioBox:hover .portfolio-box-caption{
+.portfolioBox {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolioBox:hover .portfolio-box-caption {
     background-color: darkmagenta;
-    opacity: 60%;
+    opacity: 70%;
     visibility: visible;
 }
-.portfolio-box-caption{
+
+.portfolio-box-caption {
     visibility: hidden;
     display: flex;
     align-items: center;
@@ -79,6 +86,117 @@ a {
     text-align: center;
 }
 
-footer{
-    background-color: #3C3C3C;
+footer {
+    background: #3C3C3C !important;
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top: 100px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+}
+
+footer a:hover {
+    color: #FA944B;
+    text-decoration: none;
+}
+
+.copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+    padding-top: 2em;
+    color: white;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #595959;
+    transition: all 0.8s;
+}
+
+.social-network a {
+    background-color: #F9F9F9;
+}
+
+.socialMedia {
+    padding-left: 5px;
+}
+
+footer .container div {
+    margin-top: -23px;
+}
+
+.mb-4 {
+    color: #ffffff !important;
+}
+
+.formHeader {
+    color: #FFFFFF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #FFFFFF;
 }
