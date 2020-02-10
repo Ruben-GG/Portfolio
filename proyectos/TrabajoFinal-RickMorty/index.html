@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>WikiRickyMorty</title>
+</head>
+<body>
+<nav class="navbar navbar-secondary justify-content-between">
+    <a class="navbar-brand" href="javascript:location.reload()"><img src="./Images/logo.png" alt="Logo Rick & Morty"
+                                                                     width="400px" height="150px"></a>
+
+    <div class="filter">
+        <div class="searchFilter">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2 searchField" type="search" placeholder="Search..."
+                       aria-label="Search"
+                       oninput="validate()">
+            </form>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="search()">Search
+            </button>
+        </div>
+        <div class="form-group">
+            <div>
+                <label for="inputStatus">Status</label>
+                <select id="inputStatus" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Alive</option>
+                    <option>Dead</option>
+                    <option>Unknown</option>
+                </select>
+            </div>
+            <div class="genderFilter">
+                <label for="inputGender">Gender</label>
+                <select id="inputGender" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Genderless</option>
+                    <option>Unknown</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+</nav>
+<section>
+    <div class="container">
+        <div class="RickMorty">
+            <div class="portal">
+                <img src="Images/rickymorty.png" alt="" width="200px">
+            </div>
+        </div>
+        <p class="Synopsis">
+            Rick Sanchez, a depressed, alcoholic, abusive, madman (who also happens to be a genius scientist with
+            the ability to travel through dimensions) returns to his daughter Beth's life after two decades of being
+            silent between the two. He finds her married to an incompetent, pathetic man named Jerry, and the couple
+            has two teenage kids. Summer, the oldest girl, is a rebellious teen looking to have more friends at
+            school, and Morty, the youngest child and a boy, is an anxious, quiet, and sweet kid. Rick makes Morty
+            his sidekick and takes him on hilarious Interdimensional adventures, causing poor Morty to become
+            steadily more miserable due to Rick's insane, abusive, and careless additude.
+        </p>
+    </div>
+</section>
+<script src="./js/scripts.js"></script>
+</body>
+</html>

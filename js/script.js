@@ -1,10 +1,10 @@
-function maquina(container, text, interval) {
-    longitud = text.length;
+function ocupation(container, text, interval) {
+    length = text.length;
     cnt = document.querySelector(container);
-    var i = 0;
+    let i = 0;
     timer = setInterval(function () {
         cnt.innerHTML = cnt.innerHTML.substr(0, cnt.innerHTML.length - 1) + text.charAt(i) + "_";
-        if (i >= longitud) {
+        if (i >= length) {
             clearInterval(timer);
             return true;
         } else {
@@ -12,5 +12,5 @@ function maquina(container, text, interval) {
         }
     }, interval);
 };
-var text = 'Software Developer';
-maquina(".ocupation", text, 70);
+const text = 'Software Developer';
+ocupation(".ocupation", text, 100);

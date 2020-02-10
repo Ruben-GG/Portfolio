@@ -1,0 +1,122 @@
+@font-face {
+    font-family: fontRickMorty;
+    src: local(fontRickMorty);
+}
+
+* {
+    font-family: fontRickMorty;
+}
+
+body {
+    background-image: url("https://images3.alphacoders.com/812/812062.png");
+    color: white !important;
+    background-attachment: fixed;
+    overflow: scroll;
+    background-repeat: no-repeat;
+
+}
+
+.searchField {
+    margin-left: 375px;
+}
+
+article {
+    max-width: 300px;
+    margin-bottom: 0.625rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 2px 2px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1260px;
+    min-height: 100vh;
+}
+
+.data {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.photo {
+    width: 100%;
+    background: rgb(32, 35, 41);
+}
+
+.name {
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    background: rgb(32, 35, 41);
+    padding: 0.625rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0.75rem 0 0.375rem;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.info p {
+    color: rgb(255, 152, 0);
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 200;
+    text-align: right;
+    margin: 0;
+    padding-right: 15px;
+}
+
+.info span {
+    padding-left: 15px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: rgb(158, 158, 158);
+}
+
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.searchFilter {
+    display: flex;
+}
+
+.genderFilter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 28px 0 0;
+}
+
+.portal {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://pa1.narvii.com/6885/12142f2fac51d2fbc0f652b63b00adb8edea64d1r5-300-300_00.gif");
+}
+
+.portal img {
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+.Synopsis {
+    margin-top: -150px;
+}
