@@ -8,14 +8,15 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top py-3" id="navbarMain">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="navbarMain">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#AboutMe">Sobre mi</a>
@@ -31,7 +32,7 @@
     </div>
 </nav>
 
-<header class="masthead">
+<header>
     <div class="banner">
         <div class="container">
             <div class="banner-text">
@@ -39,13 +40,74 @@
                     Bienvenidos a mi Porftolio!
                 </div>
                 <div class="banner-sub-heading" ocupation>
-
                 </div>
-                <button type="button" class="btn btn-warning text-dark btn-banner">Mas</button>
             </div>
         </div>
     </div>
 </header>
+
+<section class="page-section" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mt-0">Sobre mi</h2>
+                <img src="image/IMG_7092-2-2.jpg" alt="" width="297px" height="263px">
+                <hr class="divider light my-4">
+                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, atque
+                    blanditiis consequatur doloribus dolorum eaque earum laborum libero mollitia neque nesciunt nihil
+                    obcaecati omnis recusandae, ullam vel velit. Maxime, voluptatibus!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+                    <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">
+                            Category
+                        </div>
+                        <div class="project-name">
+                            Project Name
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+                    <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">
+                            Category
+                        </div>
+                        <div class="project-name">
+                            Project Name
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+                    <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="project-category text-white-50">
+                            Category
+                        </div>
+                        <div class="project-name">
+                            Project Name
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 <script src="js/script.js"></script>
 </body>
 </html>
