@@ -191,12 +191,6 @@ footer .container div {
     color: #ffffff !important;
 }
 
-.formHeader {
-    color: #FFFFFF;
-    font-size: 27px;
-    padding: 10px;
-}
-
 .bigicon {
     font-size: 35px;
     color: #FFFFFF;
@@ -205,4 +199,12 @@ footer .container div {
 .navbar-toggler-right {
     background-color: darkmagenta !important;
     border: 2px solid magenta !important;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
 }
