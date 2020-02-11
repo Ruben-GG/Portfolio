@@ -202,9 +202,37 @@ footer .container div {
 }
 
 .title {
+    text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 35px;
     font-weight: 700;
     line-height: 100px;
     color: #fff;
+}
+
+.progress-bar{
+    color: purple;
+}
+
+.form-group button {
+    background-color: #4c2882;
+    border: 2px solid #5d24b0;
+}
+
+.knowledge{
+    display: flex;
+    flex-direction: column;
+}
+.expertise{
+    color: white;
+}
+
+.progress{
+    width: 70%;
+    margin-top: 5px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
 }
