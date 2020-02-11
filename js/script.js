@@ -1,10 +1,10 @@
 function ocupation(container, text, interval) {
-    length = text.length;
+    lgth = text.length;
     cnt = document.querySelector(container);
     let i = 0;
     timer = setInterval(function () {
-        cnt.innerHTML = cnt.innerHTML.substr(0, cnt.innerHTML.length - 1) + text.charAt(i) + "_";
-        if (i >= length) {
+        cnt.innerHTML = cnt.innerHTML.substr(0, cnt.innerHTML.length - 1) + text.charAt(i) + ".";
+        if (i >= lgth) {
             clearInterval(timer);
             return true;
         } else {

@@ -9,18 +9,18 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="navbarMain">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0 d-flex flex-end">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#AboutMe">Sobre mi</a>
+                    <a class="nav-link js-scroll-trigger" href="#AboutMe">Sobre Mi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#Portfolio">Portfolio</a>
@@ -55,7 +55,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 text-center">
                 <h2 class="text-white mt-0">Sobre mi</h2>
-                <img src="image/Profile.jpg" alt="" width="297px" height="283px">
+                <img src="image/Profile-2.png" alt="" width="300px" height="300px">
                 <hr class="divider light my-4">
                 <p class="text-white mb-4">Estudiante de Desarrollo de Aplicaciones Multiplataforma en U-Tad,
                     Universidad Tecnológica y Arte Digital.</p>
@@ -68,7 +68,7 @@
 <section id="Portfolio">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
-            <div class="col-lg-4 col-sm-6 portfolioBox">
+            <div class="col-lg-4 col-md-6 col-12 portfolioBox">
                 <a class="portfolio-box" href="https://mi6.agency" target="_blank">
                     <img class="img-fluid" src="image/MI6.png" alt="MI6 Agency" style="">
                     <div class="portfolio-box-caption">
@@ -81,7 +81,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolioBox">
+            <div class="col-lg-4 col-md-6 col-12 portfolioBox">
                 <a class="portfolio-box" href="proyectos/TrabajoFinal-RickMorty/index.html" target="_blank">
                     <img class="img-fluid" src="image/RickMorty.png" alt="Rick&Morty" target="_blank">
                     <div class="portfolio-box-caption">
@@ -94,9 +94,9 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-sm-6 portfolioBox" style="height: 250px;">
+            <div class="col-lg-4 col-md-6 col-12 portfolioBox">
                 <a class="portfolio-box" href="">
-                    <img class="img-fluid" src="image/Mugga.png" alt="Mugga" target="_blank" height="250px">
+                    <img class="img-fluid" src="image/Mugga.png" alt="Mugga" target="_blank">
                     <div class="portfolio-box-caption">
                         <div class="project-category text-white">
                             Mugga
@@ -115,9 +115,8 @@
         <div class="col-md-12">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
+                    <legend class="text-center formHeader">Contacto</legend>
                     <fieldset>
-                        <legend class="text-center formHeader">Contacto</legend>
-
                         <div class="form-group">
                             <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8">
@@ -163,9 +162,11 @@
 <footer class="py-5">
     <div class="socialMedia">
         <ul class="social-network social-circle">
-            <li><a href="https://github.com/Ruben-GG" class="icoFacebook" title="Facebook"><i class="fa fa-github"></i></a>
+            <li><a href="https://github.com/Ruben-GG" class="icoFacebook" title="Facebook" target="_blank"><i
+                    class="fa fa-github"></i></a>
             </li>
-            <li><a href="https://www.linkedin.com/in/rubengarciagallardo/" class="icoLinkedin" title="Linkedin"><i
+            <li><a href="https://www.linkedin.com/in/rubengarciagallardo/" class="icoLinkedin" title="Linkedin"
+                   target="_blank"><i
                     class="fa fa-linkedin"></i></a></li>
         </ul>
     </div>
@@ -173,6 +174,14 @@
         <div class="small text-center text-muted">Copyright &copy; 2020 - Rubén García Gallardo</div>
     </div>
 </footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
