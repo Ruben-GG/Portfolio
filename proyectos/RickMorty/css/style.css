@@ -13,7 +13,6 @@ body {
     background-attachment: fixed;
     overflow: scroll;
     background-repeat: no-repeat;
-
 }
 
 .searchField {
@@ -82,7 +81,6 @@ article {
     color: rgb(158, 158, 158);
 }
 
-
 .filter {
     display: flex;
     flex-direction: column;
@@ -119,4 +117,14 @@ article {
 
 .Synopsis {
     margin-top: -150px;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: url(fondo.jpg);
+        color: white !important;
+        background-attachment: fixed;
+        overflow: scroll;
+        background-repeat: no-repeat;
+    }
 }

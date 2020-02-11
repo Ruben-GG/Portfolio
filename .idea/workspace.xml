@@ -5,6 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/.idea/TrabajoFinal-RubenGarciaGallardo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/Images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/Images/portal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/Images/rickymorty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/fontRickMorty.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyectos/TrabajoFinal-RickMorty/js/scripts.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +101,7 @@
       <workItem from="1581370218682" duration="56000" />
       <workItem from="1581370531152" duration="852000" />
       <workItem from="1581374901060" duration="2092000" />
-      <workItem from="1581408320809" duration="8236000" />
+      <workItem from="1581408320809" duration="13735000" />
     </task>
     <servers />
   </component>

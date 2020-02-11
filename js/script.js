@@ -1,3 +1,8 @@
+function validate() {
+    document.querySelector('.btn').disabled = !(document.querySelector('#fname').value.trim().length && document.querySelector('#fsurname').value.trim().length && document.querySelector('#email').value.trim().length && document.querySelector('#message').value.trim().length); // .trim() quita espacios por delante y detras.
+}
+
+
 function ocupation(container, text, interval) {
     lgth = text.length;
     cnt = document.querySelector(container);

@@ -197,8 +197,8 @@ footer .container div {
 }
 
 .navbar-toggler-right {
-    background-color: darkmagenta !important;
-    border: 2px solid magenta !important;
+    background-color: #4c2882 !important;
+    border: 2px solid #5d24b0 !important;
 }
 
 .title {
@@ -210,7 +210,7 @@ footer .container div {
     color: #fff;
 }
 
-.progress-bar{
+.progress-bar {
     color: purple;
 }
 
@@ -219,20 +219,36 @@ footer .container div {
     border: 2px solid #5d24b0;
 }
 
-.knowledge{
+.form-group button:hover {
+    background-color: #5d24b0;
+    border: 2px solid #4c2882;
+}
+
+.form-group button:disabled {
+    background-color: dodgerblue;
+    border: 2px solid royalblue;
+    opacity: 80%;
+}
+
+.knowledge {
     display: flex;
     flex-direction: column;
 }
-.expertise{
+
+.expertise {
     color: white;
 }
 
-.progress{
+.progress {
     width: 70%;
     margin-top: 5px;
 }
 
-.skills{
+.skills {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-item {
+    text-align: right;
 }
