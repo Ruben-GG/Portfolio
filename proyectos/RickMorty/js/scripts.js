@@ -6,16 +6,16 @@ https://rickandmortyapi.com/api/character/?name=rick&status=alive --> Para filtr
 
 const list = document.querySelector('.container');
 const info = document.querySelector('.RickMorty');
+const statusSelect = document.querySelector('#inputStatus');
+const genderSelect = document.querySelector('#inputGender');
 let url = 'https://rickandmortyapi.com/api/character/?name=';
 
 function validate() {
 //    document.querySelector('button').disabled = !document.querySelector('.campoBuscar').value.trim().length; // .trim() quita espacios por delante y detras.
-
 }
 
-
 function fetchData(url, callback) {
-    var xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open('GET', url);
     xhr.responseType = 'json';
     xhr.onreadystatechange = function () {
@@ -26,8 +26,10 @@ function fetchData(url, callback) {
 }
 
 function showCharacter(response) {
+
+    clearFields()
+
     for (let i = 0; i < response.results.length; i++) {
-        info.remove();
         list.innerHTML += `
         <article>
         <div class="data">
@@ -93,7 +95,7 @@ function showCharacter(response) {
 }
 
 function search() {
-    let urlN = document.querySelector('.searchField').value;
+    let urlN = document.querySelector('#searchField').value;
     let urlS = document.querySelector('#inputStatus');
     let urlG = document.querySelector('#inputGender');
     let gOption = urlG.options[urlG.selectedIndex].text;
@@ -115,6 +117,15 @@ function search() {
         url = 'https://rickandmortyapi.com/api/character/?name=' + urlN;
     fetchData(url, showCharacter);
 }
+
+
+function clearFields() {
+    list.innerHTML = '';
+    document.querySelector('#searchField').value = '';
+    statusSelect.options[0].selected = 'selected';
+    genderSelect.options[0].selected = 'selected';
+}
+
 
 window.addEventListener("scroll", function () {
     // if (this.scrollY >= X) --> X siendo los pixeles

@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.searchField {
+#searchField {
     margin-left: 375px;
 }
 
@@ -62,6 +62,7 @@ article {
     flex-wrap: nowrap;
     padding: 0.75rem 0 0.375rem;
     border-bottom: 1px solid rgb(68, 68, 68);
+    background: rgb(32, 35, 41);
 }
 
 .info p {

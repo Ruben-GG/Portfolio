@@ -15,11 +15,11 @@
     <div class="filter">
         <div class="searchFilter">
             <form class="form-inline">
-                <input class="form-control mr-sm-2 searchField" type="search" placeholder="Search..."
+                <input id="searchField" class="form-control mr-sm-2" type="text" placeholder="Search..."
                        aria-label="Search"
                        oninput="validate()">
             </form>
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="search()">Search
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="search()" on>Search
             </button>
         </div>
         <div class="form-group">
