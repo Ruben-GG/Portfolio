@@ -3,21 +3,27 @@
     src: local(fontRickMorty);
 }
 
-* {
-    font-family: fontRickMorty;
-}
-
 body {
-    background-image: url("https://images3.alphacoders.com/812/812062.png");
+    background-image: url("fondo.jpg");
+    background-repeat: repeat-x;
     color: white !important;
     background-attachment: fixed;
     overflow: scroll;
-    background-repeat: no-repeat;
 }
 
 #searchField {
     margin-left: 375px;
 }
+
+.btn:disabled:hover, .btn:disabled {
+    animation: none;
+    border-color: #0b0b0b;
+    color: #0b0b0b !important;
+    font-weight: bold;
+    background-color: rgba(192, 192, 192, 0.25) !important;
+    cursor: not-allowed;
+}
+
 
 article {
     max-width: 300px;

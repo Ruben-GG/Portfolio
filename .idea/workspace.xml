@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="319735e7-fe30-4030-b0e6-33d008854488" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="319735e7-fe30-4030-b0e6-33d008854488" name="Default Changelist" comment="clear fields implemented">
+      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyectos/RickMorty/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/RickMorty/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyectos/RickMorty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/RickMorty/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyectos/RickMorty/index2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/proyectos/RickMorty/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/proyectos/RickMorty/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Portfolio/index2.html" useBuiltInWebServerPort="true">
@@ -81,6 +82,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -103,11 +105,20 @@
       <workItem from="1581370531152" duration="852000" />
       <workItem from="1581374901060" duration="2092000" />
       <workItem from="1581408320809" duration="13735000" />
+      <workItem from="1610817931115" duration="4236000" />
     </task>
+    <task id="LOCAL-00001" summary="clear fields implemented">
+      <created>1610711258867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610711258867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -119,9 +130,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh-pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh-pages" />
+    <MESSAGE value="clear fields implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear fields implemented" />
   </component>
 </project>

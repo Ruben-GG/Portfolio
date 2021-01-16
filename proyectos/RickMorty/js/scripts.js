@@ -6,12 +6,19 @@ https://rickandmortyapi.com/api/character/?name=rick&status=alive --> Para filtr
 
 const list = document.querySelector('.container');
 const info = document.querySelector('.RickMorty');
+const searchField = document.querySelector('#searchField');
 const statusSelect = document.querySelector('#inputStatus');
 const genderSelect = document.querySelector('#inputGender');
 let url = 'https://rickandmortyapi.com/api/character/?name=';
 
+searchField.addEventListener("keyup", function (event) {
+    if (event.keyCode === 13) {
+        document.querySelector('button').click();
+    }
+});
+
 function validate() {
-//    document.querySelector('button').disabled = !document.querySelector('.campoBuscar').value.trim().length; // .trim() quita espacios por delante y detras.
+    document.querySelector('button').disabled = !(searchField.value.trim().length || statusSelect.options.selectedIndex !== 0 || genderSelect.options.selectedIndex !== 0);
 }
 
 function fetchData(url, callback) {
@@ -90,8 +97,6 @@ function showCharacter(response) {
         </article>
         `;
     }
-
-
 }
 
 function search() {
@@ -124,14 +129,5 @@ function clearFields() {
     document.querySelector('#searchField').value = '';
     statusSelect.options[0].selected = 'selected';
     genderSelect.options[0].selected = 'selected';
+    document.querySelector('button').disabled = true;
 }
-
-
-window.addEventListener("scroll", function () {
-    // if (this.scrollY >= X) --> X siendo los pixeles
-    if (this.scrollY + this.innerHeight === document.documentElement.offsetHeight) {
-
-    }
-}, false);
-
-
